@@ -1,0 +1,105 @@
+.coaches {
+  padding: 120px 0;
+}
+
+.coaches__title {
+  color: #141024;
+  font-size: 50px;
+  font-family: Jost;
+  font-weight: 600;
+}
+
+.coaches-track {
+  margin-top: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 40px;
+  width: 110%;
+  overflow: hidden;
+  overflow-x: scroll;
+  scrollbar-width: none;
+}
+
+.coaches-track__card-img {
+  border-radius: 20px;
+}
+
+.coaches-track__card-name {
+  color: #141024;
+  margin: 20px 0 10px;
+  font-size: 24px;
+  font-family: Jost;
+  font-weight: 600;
+}
+
+.coaches-track__card-profession {
+  color: rgba(20, 16, 36, 0.7);
+  font-size: 18px;
+  font-family: Jost;
+}
+
+.coaches-track__card-btn {
+  margin-top: 10px;
+  color: #d52027;
+  font-size: 18px;
+  font-family: Jost;
+  border: none;
+  background: none;
+  cursor: pointer;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.coaches-track__card-btn:hover {
+  color: rgb(155, 0, 0);
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.coaches-arrows {
+  margin-top: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.coaches-line {
+  background-color: rgba(20, 16, 36, 0.08);
+  border-radius: 40px;
+  width: 360px;
+  height: 5px;
+  position: relative;
+}
+
+.coaches-line::before {
+  content: "";
+  background-color: #141024;
+  border-radius: 40px;
+  width: 260px;
+  height: 5px;
+  position: absolute;
+  left: 0;
+}
+
+.coaches-arrows__buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 15px;
+}
+
+.coaches-arrows__buttons-btn {
+  border: none;
+  background: none;
+  cursor: pointer;
+}
